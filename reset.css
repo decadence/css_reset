@@ -36,3 +36,18 @@ table
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.row::after
+{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both; 
+}
+
+
+
+
+
+
