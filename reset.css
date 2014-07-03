@@ -1,0 +1,32 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	text-shadow: none;
+	background-repeat: no-repeat;
+}
+
+/* IE problem */
+img 
+{
+	border: 0;
+
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul, li
+{
+	list-style: none;
+}
+
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
