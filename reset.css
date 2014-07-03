@@ -7,6 +7,12 @@
 	background-repeat: no-repeat;
 }
 
+/* iOS submit buttons */
+input[type="submit"]
+{
+	-webkit-appearance: none
+}
+
 /* IE problem */
 img 
 {
