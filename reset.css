@@ -49,6 +49,16 @@ a
 	color: inherit;
 }
 
+a.underline
+{
+	text-decoration: underline;
+}
+
+a.underline:hover
+{
+	text-decoration: none;
+}
+
 ul, li
 {
 	list-style: none;
