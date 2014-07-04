@@ -73,6 +73,7 @@ table
 textarea
 {
 	overflow: auto;
+	resize: vertical;
 }
 
 .justify 
