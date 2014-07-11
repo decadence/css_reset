@@ -8,8 +8,6 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	
-	
-	
 	-webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
@@ -102,6 +100,10 @@ textarea
 {
 	text-align: justify;
 	font-size: 0;
+}
+
+.justify.one-line
+{
 	line-height: 0; /* только для элементов, умещающихся в одной строчке, иначе строки наедут друг на друга */
 }
 
