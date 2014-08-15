@@ -2,9 +2,11 @@
 {
 	margin: 0;
 	padding: 0;
-	-webkit-text-size-adjust: none;
+	
 	text-shadow: none;
+	
 	background-repeat: no-repeat;
+	
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	
@@ -12,6 +14,13 @@
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
+	
+	outline: 0;
+}
+
+html
+{
+	-webkit-text-size-adjust: none;
 }
 
 html, body
@@ -21,12 +30,22 @@ html, body
 
 body
 {
+	font-family: sans-serif;
 	line-height: 1;
 }
 
 /* fix for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section 
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section 
 {
 	display: block;
 }
@@ -41,11 +60,20 @@ input[type="submit"]
 	-webkit-appearance: none
 }
 
-*:focus,
-*:active
+label,
+a,
+select
 {
-	outline: 0;
+	cursor: pointer;
 }
+
+input,
+select,
+textarea
+{
+	font-family: inherit;
+}
+
 
 /* IE problem */
 img 
@@ -57,6 +85,12 @@ a
 {
 	text-decoration: none;
 	color: inherit;
+	background: transparent;
+}
+
+a:hover
+{
+	text-decoration: none;
 }
 
 a.none:hover
