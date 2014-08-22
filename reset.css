@@ -50,7 +50,9 @@ section
 	display: block;
 }
 
-[hidden] {
+[hidden],
+.hidden
+{
     display: none;
 }
 
@@ -80,6 +82,12 @@ img
 {
 	border: 0;
 }
+
+.rel
+{
+	position: relative;
+}
+
 
 a
 {
@@ -163,7 +171,8 @@ textarea
 	float: right;
 }
 
-.in-center
+.in-center,
+.overlay
 {
 	top: 0;
 	left: 0;
@@ -172,6 +181,13 @@ textarea
 	margin: auto;
 	position: absolute;
 }
+
+.overlay
+{
+	z-index: 10;
+	background: rgba(0,0,0,.5);
+}
+
 
 
 
