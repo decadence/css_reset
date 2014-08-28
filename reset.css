@@ -15,6 +15,7 @@
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
 	
+	border-radius: 0;
 	outline: 0;
 }
 
