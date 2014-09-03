@@ -65,7 +65,8 @@ input[type="submit"]
 
 label,
 a,
-select
+select,
+button
 {
 	cursor: pointer;
 }
