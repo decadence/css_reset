@@ -103,13 +103,13 @@ a
 
 a,
 a:hover,
-a.underline:hover
+.underline:hover
 {
 	text-decoration: none;
 }
 
-a.none:hover,
-a.underline
+.none:hover,
+.underline
 {
 	text-decoration: underline;
 }
