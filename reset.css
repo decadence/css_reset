@@ -186,6 +186,13 @@ textarea
 	background: rgba(0,0,0,.5);
 }
 
+.text-overflow
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 
 
 
