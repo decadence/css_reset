@@ -79,6 +79,7 @@ select,
 textarea
 {
 	font-family: inherit;
+	word-break: normal;
 }
 
 
