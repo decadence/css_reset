@@ -1,5 +1,4 @@
-*
-{
+*{
 	margin: 0;
 	padding: 0;
 	
@@ -21,18 +20,21 @@
 	word-break: break-word;
 }
 
-html
-{
+*:active,
+*:focus{
+	outline: 0;
+	border: 0;
+}
+
+html{
 	-webkit-text-size-adjust: none;
 }
 
-html, body
-{
+html, body{
 	height: 100%;
 }
 
-body
-{
+body{
 	font-family: sans-serif;
 	line-height: 1;
 }
@@ -48,20 +50,17 @@ header,
 hgroup, 
 menu, 
 nav, 
-section 
-{
+section{
 	display: block;
 }
 
 [hidden],
-.hidden
-{
+.hidden{
     display: none;
 }
 
 /* iOS submit buttons */
-input[type="submit"]
-{
+input[type="submit"]{
 	-webkit-appearance: none
 }
 
@@ -69,65 +68,58 @@ label,
 a,
 select,
 button,
-input[type="submit"]
-{
+input[type="submit"]{
 	cursor: pointer;
 }
 
 input,
 select,
-textarea
-{
+textarea{
 	font-family: inherit;
 	word-break: normal;
 }
 
-
 /* IE problem */
 img,
-input[type="submit"]
-{
+input[type="submit"]{
 	border: 0;
 }
 
-.rel
-{
+.rel{
 	position: relative;
 }
 
 
-a
-{
+a{
 	color: inherit;
 	background: transparent;
 }
 
 a,
 a:hover,
-.underline:hover
-{
+.underline:hover{
 	text-decoration: none;
 }
 
 .none:hover,
-.underline
-{
+.underline{
 	text-decoration: underline;
 }
 
-ul, li
-{
+ul, li{
 	list-style: none;
 }
 
-table 
-{
+table{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-.row::after
-{
+table.fixed{
+	table-layout: fixed;
+}
+
+.row::after{
 	content: " ";
 	visibility: hidden;
 	display: block;
@@ -136,43 +128,37 @@ table
 }
 
 
-textarea
-{
+textarea{
 	overflow: auto;
 	resize: vertical;
 }
 
-.justify 
-{
+.justify{
 	text-align: justify;
 }
 
-.justify.one-line
-{
-	line-height: 0; /* только для элементов, умещающихся в одной строчке, иначе строки наедут друг на друга */
+.justify.one-line{
+	/* только для элементов, умещающихся в одной строчке, иначе строки наедут друг на друга */
+	line-height: 0;
 }
 
-.justify::after 
-{
+.justify::after{
 	width: 100%;
 	display: inline-block;
 	content: "";
 }
 
 
-.left
-{
+.left{
 	float: left;
 }
 
-.right
-{
+.right{
 	float: right;
 }
 
 .in-center,
-.overlay
-{
+.overlay{
 	top: 0;
 	left: 0;
 	right: 0;
@@ -181,14 +167,12 @@ textarea
 	position: absolute;
 }
 
-.overlay
-{
+.overlay{
 	z-index: 10;
 	background: rgba(0,0,0,.5);
 }
 
-.text-overflow
-{
+.text-overflow{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
