@@ -89,7 +89,6 @@ input[type="submit"]{
 	position: relative;
 }
 
-
 a{
 	color: inherit;
 	background: transparent;
@@ -127,7 +126,6 @@ table.fixed{
 	clear: both; 
 }
 
-
 textarea{
 	overflow: auto;
 	resize: vertical;
@@ -147,7 +145,6 @@ textarea{
 	display: inline-block;
 	content: "";
 }
-
 
 .left{
 	float: left;
