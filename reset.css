@@ -6,6 +6,7 @@
 	
 	background-repeat: no-repeat;
 	
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	
@@ -15,8 +16,6 @@
     font-smoothing: antialiased;
 	
 	border-radius: 0;
-	outline: 0;
-	
 	word-break: break-word;
 }
 
@@ -28,6 +27,7 @@
 
 html{
 	-webkit-text-size-adjust: none;
+	–ms-text-size-adjust: none;
 }
 
 html, body{
