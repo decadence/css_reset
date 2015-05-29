@@ -145,7 +145,10 @@ textarea{
 }
 
 .justify.one-line{
-	/* только для элементов, умещающихся в одной строчке, иначе строки наедут друг на друга */
+	/* 
+	только для элементов, умещающихся в одной строчке, 
+	иначе строки наедут друг на друга
+	*/
 	line-height: 0;
 }
 
@@ -153,6 +156,11 @@ textarea{
 	width: 100%;
 	display: inline-block;
 	content: "";
+}
+
+.justify > div{
+	display: inline-block;
+	width: 100px;
 }
 
 .left{
