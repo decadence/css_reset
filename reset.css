@@ -200,6 +200,10 @@ textarea{
 	float: right;
 }
 
+.center{
+	text-align: center;
+}
+
 .in-center,
 .overlay{
 	top: 0;
