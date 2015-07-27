@@ -20,6 +20,11 @@
 	line-height: 1;
 }
 
+td,
+th{
+	word-break: normal;
+}
+
 *:active,
 *:focus{
 	outline: 0;
