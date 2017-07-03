@@ -53,7 +53,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
 
 html{
 	-webkit-text-size-adjust: none;
-	–ms-text-size-adjust: none;
+	-ms-text-size-adjust: none;
 }
 
 html, body{
