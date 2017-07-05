@@ -1,67 +1,89 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-	text-shadow: none;
-	
-	background-repeat: no-repeat;
-	
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	
-	-webkit-font-smoothing: antialiased;
+* {
+    margin: 0;
+    padding: 0;
+
+    text-shadow: none;
+
+    background-repeat: no-repeat;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
-	
-	border-radius: 0;
-	word-break: break-word;
-	line-height: 1;
+
+    border-radius: 0;
+    word-break: break-word;
+    line-height: 1;
 }
 
 td,
-th{
-	word-break: normal;
+th {
+    word-break: normal;
 }
 
 *:active,
-*:focus{
-	outline: 0;
+*:focus {
+    outline: 0;
 }
 
 img {
-	height: auto;
-	max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 /*
 	Заменяем длинный текст placeholder многоточием
 */
-input[placeholder]          {text-overflow:ellipsis;}
-input::-moz-placeholder     {text-overflow:ellipsis;} 
-input:-moz-placeholder      {text-overflow:ellipsis;} 
-input:-ms-input-placeholder {text-overflow:ellipsis;}
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+input::-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+}
 
 /*
 	Скрываем placeholder при фокусе
 */
-:focus::-webkit-input-placeholder {color: transparent}
-:focus::-moz-placeholder          {color: transparent}
-:focus:-moz-placeholder           {color: transparent}
-:focus:-ms-input-placeholder      {color: transparent}
-
-html{
-	-webkit-text-size-adjust: none;
-	-ms-text-size-adjust: none;
+:focus::-webkit-input-placeholder {
+    color: transparent
 }
 
-html, body{
-	height: 100%;
+:focus::-moz-placeholder {
+    color: transparent
 }
 
-body{
-	font-family: sans-serif;
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 /* лучше потом явно задать нужный вес шрифта */
@@ -70,33 +92,33 @@ h2,
 h3,
 h4,
 h5,
-h6{
-	font-weight: normal;
+h6 {
+    font-weight: normal;
 }
 
 /* fix for older browsers */
-article, 
-aside, 
-details, 
-figcaption, 
-figure, 
-footer, 
-header, 
-hgroup, 
-menu, 
-nav, 
-section{
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
 [hidden],
-.hidden{
+.hidden {
     display: none;
 }
 
 /* iOS submit buttons */
-input[type="submit"]{
-	-webkit-appearance: none
+input[type="submit"] {
+    -webkit-appearance: none
 }
 
 label {
@@ -111,126 +133,126 @@ label,
 a,
 select,
 button,
-input[type="submit"]{
-	cursor: pointer;
+input[type="submit"] {
+    cursor: pointer;
 }
 
 input,
 button,
 select,
-textarea{
-	font-family: inherit;
-	font-size: inherit;
-	word-break: normal;
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    word-break: normal;
 }
 
 /* IE problem */
 img,
 button,
-input[type="submit"]{
-	border: 0;
+input[type="submit"] {
+    border: 0;
 }
 
-.rel{
-	position: relative;
+.rel {
+    position: relative;
 }
 
-a{
-	color: inherit;
-	background: transparent;
+a {
+    color: inherit;
+    background: transparent;
 }
 
 a,
 a:hover,
-.underline:hover{
-	text-decoration: none;
+.underline:hover {
+    text-decoration: none;
 }
 
 .none:hover,
-.underline{
-	text-decoration: underline;
+.underline {
+    text-decoration: underline;
 }
 
-ul, li{
-	list-style: none;
+ul, li {
+    list-style: none;
 }
 
-table{
-	border-collapse: collapse;
-	border-spacing: 0;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-table.fixed{
-	table-layout: fixed;
+table.fixed {
+    table-layout: fixed;
 }
 
-.row::after{
-	content: " ";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both; 
+.row::after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
-textarea{
-	overflow: auto;
-	resize: vertical;
+textarea {
+    overflow: auto;
+    resize: vertical;
 }
 
-.justify{
-	text-align: justify;
+.justify {
+    text-align: justify;
 }
 
-.justify.one-line{
-	/* 
-	только для элементов, умещающихся в одной строчке, 
-	иначе строки наедут друг на друга
-	*/
-	line-height: 0;
+.justify.one-line {
+    /*
+    только для элементов, умещающихся в одной строчке,
+    иначе строки наедут друг на друга
+    */
+    line-height: 0;
 }
 
-.justify::after{
-	width: 100%;
-	display: inline-block;
-	content: "";
+.justify::after {
+    width: 100%;
+    display: inline-block;
+    content: "";
 }
 
-.justify > div{
-	display: inline-block;
-	width: 100px;
+.justify > div {
+    display: inline-block;
+    width: 100px;
 }
 
-.left{
-	float: left;
+.left {
+    float: left;
 }
 
-.right{
-	float: right;
+.right {
+    float: right;
 }
 
-.center{
-	text-align: center;
+.center {
+    text-align: center;
 }
 
 .in-center,
-.overlay{
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	position: absolute;
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
 }
 
-.overlay{
-	z-index: 10;
-	background: rgba(0,0,0,.5);
+.overlay {
+    z-index: 10;
+    background: rgba(0, 0, 0, .5);
 }
 
-.text-overflow{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 
